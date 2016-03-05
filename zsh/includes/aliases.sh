@@ -1,3 +1,4 @@
+#@IgnoreInspection BashAddShebang
 # List directory each time directory is changed (run `ls -la` after each `cd`)
 function chpwd() {
     ls -lF
@@ -57,7 +58,7 @@ alias c='git commit '
 alias t='git tag -n1'
 alias di='git diff'
 alias dw='git diff --color-words' # show modified words
-alias df='git diff --name-only' # show modified filenames
+# alias df='git diff --name-only' # show modified filenames
 alias m='git merge --no-ff' # Non-Fast-Forward merge
 alias mf='git merge --ff-only' # Fast-Forward merge
 alias go='git checkout '
@@ -98,3 +99,5 @@ alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
 
 # Send OS X notification
 alias notify='terminal-notifier -message "Done" -activate com.googlecode.iterm2'
+
+alias ccb="xclip -sel clip <"
