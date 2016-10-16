@@ -1,3 +1,6 @@
 set number
-vnoremap <Tab> >gv
-vnoremap <S-Tab> <gv
+set hidden
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+
+
