@@ -101,3 +101,13 @@ alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
 alias notify='terminal-notifier -message "Done" -activate com.googlecode.iterm2'
 
 alias ccb="xclip -sel clip <"
+
+# tmux new session with name
+alias txns="tmux new-session -s"
+
+#tmux join session by name
+alias txjs="tmux a -t"
+
+
+
+
