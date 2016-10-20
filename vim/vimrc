@@ -1,6 +1,13 @@
+" Forget compatibility with VI 
+set nocompatible
+
+" encoding
+set encoding=utf-8 " encoding for editing a file
+set fileencoding=utf-8 " encoding for writing to a file
+
 set number
 set hidden
-vmap <Tab> >gv
-vmap <S-Tab> <gv
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
 
 
