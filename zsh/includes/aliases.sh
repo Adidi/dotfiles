@@ -73,7 +73,7 @@ function sadd() { git subtree add --prefix=$1 $1 master }
 # Undo a `git push`
 alias undopush="git push -f origin HEAD~:master"
 alias lg='git log -p'
-alias lol='git log --graph --decorate --abbrev-commit --date=relative --pretty=format:"%C(yellow)%h%C(reset) %C(black)%ad%C(reset) %C(blue)%an%C(reset)%C(red)%d%C(reset) %s"'
+alias lol='git log --graph --decorate --abbrev-commit --date=relative --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ad%C(reset) %C(blue)%an%C(reset)%C(red)%d%C(reset) %s"'
 alias lola='lol --all'
 # Show files ignored by git
 alias ign='git ls-files -o -i --exclude-standard'
