@@ -82,9 +82,10 @@ alias inf='git remote show '
 # Export current commit changes against ref to patch file
 alias gfp='git format-patch --stdout > patch'
 
-alias gpom="git push origin master"
-alias gpsm="git push staging master"
-alias gppm="git push prod master"
+alias pushs="git push staging master"
+alias pushp="git push prod master"
+alias pulls="git pull staging master"
+alias pullp="git pull prod master"
 
 # Additional binaries
 
