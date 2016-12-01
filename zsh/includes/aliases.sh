@@ -117,6 +117,8 @@ alias txns="tmux new-session -s"
 #tmux join session by name
 alias txjs="tmux a -t"
 
+alias ntw="sudo service NetworkManager restart && sudo service network restart"
+
 
 
 
