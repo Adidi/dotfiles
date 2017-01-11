@@ -85,11 +85,15 @@ alias gfp='git format-patch --stdout > patch'
 alias fetch="git fetch origin master"
 alias fetchp="git fetch prod master"
 alias fetchs="git fetch stg master"
+alias fetchd="git fetch dev master"
 
 alias pushs="git push stg master"
 alias pushp="git push prod master"
+alias pushd="git push dev master"
+
 alias pulls="git pull stg master"
 alias pullp="git pull prod master"
+alias pulld="git pull dev master"
 
 # Additional binaries
 
