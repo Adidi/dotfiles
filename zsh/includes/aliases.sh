@@ -124,5 +124,5 @@ alias txjs="tmux a -t"
 alias ntw="sudo service NetworkManager restart && sudo service network restart"
 
 
-
+alias cb="bash ./copy-clipboard.sh"
 
