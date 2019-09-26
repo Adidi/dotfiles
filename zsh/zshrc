@@ -41,3 +41,15 @@ if [ -s "$reminder_file" ] ; then
   echo "TODO:"
   cat "$reminder_file"
 fi
+
+function cd() {
+  if [[ -d ./venv ]] ; then
+    deactivate
+  fi
+
+  builtin cd $1
+
+  if [[ -d ./venv ]] ; then
+    . ./venv/bin/activate
+  fi
+}
