@@ -113,7 +113,7 @@ alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
 # Send OS X notification
 alias notify='terminal-notifier -message "Done" -activate com.googlecode.iterm2'
 
-alias ccb="xclip -sel clip <"
+alias ccb="xsel -ib <"
 
 # tmux new session with name
 alias txns="tmux new-session -s"
