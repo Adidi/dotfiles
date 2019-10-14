@@ -116,12 +116,12 @@ alias notify='terminal-notifier -message "Done" -activate com.googlecode.iterm2'
 alias ccb="xsel -ib <"
 
 # tmux new session with name
-alias txns="tmux new-session -s"
+alias txns="tmux -u new-session -s"
 
 #tmux join session by name
-alias txjs="tmux a -t"
+alias txjs="tmux -u a -t"
 
-alias ntw="sudo service NetworkManager restart && sudo service network restart"
+alias ntw="sudo service NetworkManager restart"
 
 
 alias cb="bash ~/.dotfiles/zsh/includes/copy-clipboard.sh"
