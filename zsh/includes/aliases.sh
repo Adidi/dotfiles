@@ -128,3 +128,5 @@ alias ntw="sudo service NetworkManager restart"
 
 alias cb="bash ~/.dotfiles/zsh/includes/copy-clipboard.sh"
 
+alias gfap="git fetch --all --prune"
+
