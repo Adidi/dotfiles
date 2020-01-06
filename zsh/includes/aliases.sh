@@ -124,6 +124,9 @@ alias txns="tmux new-session -s"
 # tmux join session by name
 alias txjs="tmux a -t"
 
+# create main tmux
+alias txm="txns main"
+
 alias ntw="sudo service NetworkManager restart"
 
 alias cb="bash ~/.dotfiles/zsh/includes/copy-clipboard.sh"
