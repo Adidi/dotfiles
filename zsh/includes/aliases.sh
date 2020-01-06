@@ -23,9 +23,8 @@ alias ...='cd ../../' # Go Up 2 levels
 alias cdd='cd -' # Go Back
 alias desk='cd ~/Desktop' # Shortcut to code dir
 alias dcode='cd ~/code' # Shortcut to code dir
-alias sites='cd ~/Sites' # Shortcut to Sites dir
 alias dotfiles='cd ~/.dotfiles' # Shortcut to CLI dotfiles dir
-alias guifiles='cd ~/.dotfiles-xfce' # Shortcut to GUI dotfiles dir
+alias cups='cd ~/code/upstay' 
 
 # List files/dirs
 alias ls='ls -G'
