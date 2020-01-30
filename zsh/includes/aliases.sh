@@ -22,7 +22,7 @@ alias ..='cd ..' # Go Up
 alias ...='cd ../../' # Go Up 2 levels
 alias cdd='cd -' # Go Back
 alias desk='cd ~/Desktop' # Shortcut to code dir
-alias dcode='cd ~/code' # Shortcut to code dir
+alias cod='cd ~/code' # Shortcut to code dir
 alias dotfiles='cd ~/.dotfiles' # Shortcut to CLI dotfiles dir
 alias cups='cd ~/code/upstay' 
 
