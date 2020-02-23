@@ -24,7 +24,7 @@ alias cdd='cd -' # Go Back
 alias desk='cd ~/Desktop' # Shortcut to code dir
 alias cod='cd ~/code' # Shortcut to code dir
 alias dotfiles='cd ~/.dotfiles' # Shortcut to CLI dotfiles dir
-alias cups='cd ~/code/upstay' 
+alias cy='cd ~/code/cycode' 
 
 # List files/dirs
 alias ls='ls -G'
