@@ -25,6 +25,7 @@ alias desk='cd ~/Desktop' # Shortcut to code dir
 alias cod='cd ~/code' # Shortcut to code dir
 alias dotfiles='cd ~/.dotfiles' # Shortcut to CLI dotfiles dir
 alias cy='cd ~/code/cycode' 
+alias cy1='code ~/code/cycode/cycode-js'
 
 # List files/dirs
 alias ls='ls -G'
@@ -63,14 +64,7 @@ alias mf='git merge --ff-only' # Fast-Forward merge
 alias go='git checkout '
 alias pull='git pull '
 alias push='git push '
-# Subtree Pull in
-function spull() { git subtree pull --prefix=$1 $1 master }
-# Subtree Push upstream
-function spush() { git subtree push --prefix=$1 $1 master }
-# Subtree Add new one
-function sadd() { git subtree add --prefix=$1 $1 master }
-# Undo a `git push`
-alias undopush="git push -f origin HEAD~:master"
+
 alias lg='git log -p'
 alias lol='git log --graph --decorate --abbrev-commit --date=relative --pretty=format:"%C(yellow)%h%C(reset) %C(green)%ad%C(reset) %C(blue)%an%C(reset)%C(red)%d%C(reset) %s"'
 alias lola='lol --all'
@@ -105,12 +99,6 @@ alias irssi='TERM=screen-256color irssi'
 # Betty - Friendly English-like interface for CLI
 # More details: https://github.com/pickhardt/betty
 alias betty="~/.dotfiles/betty/main.rb"
-
-# Fire up simple server and open it's root page in the browser
-alias server="open http://localhost:8000 && python -m SimpleHTTPServer"
-
-# Send OS X notification
-alias notify='terminal-notifier -message "Done" -activate com.googlecode.iterm2'
 
 alias ccb="xsel -ib <"
 
